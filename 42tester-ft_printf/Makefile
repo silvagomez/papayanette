@@ -6,7 +6,7 @@
 #    By: dsilva-g <dsilva-g@student.42urduli>       +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/04/26 10:20:21 by dsilva-g          #+#    #+#              #
-#    Updated: 2023/06/24 01:45:37 by dsilva-g         ###   ########.fr        #
+#    Updated: 2023/06/26 12:16:58 by dsilva-g         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -99,7 +99,11 @@ test_X: all
 
 test_per: all
 	@echo "$(GREEN)Starting...!$(WHITE)"
-	$(CC) $(CFLAGS) $(NAME) main.c && ./a.out "9"
+	gcc $(FLAGS) $(NAME) main.c && ./a.out "9"
+
+test_crazy: all
+	@echo "$(GREEN)Starting...!$(WHITE)"
+	gcc $(NAME) crazy.c && ./a.out "10"
 
 .PHONY: all clean fclean re \
 	run test_c test_s test_d test_i test_p test_u test_x test_X test_per

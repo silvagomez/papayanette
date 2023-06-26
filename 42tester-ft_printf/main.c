@@ -6,7 +6,7 @@
 /*   By: dsilva-g <dsilva-g@student.42urduli>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/11 12:09:59 by dsilva-g          #+#    #+#             */
-/*   Updated: 2023/06/24 01:42:10 by dsilva-g         ###   ########.fr       */
+/*   Updated: 2023/06/26 12:31:47 by dsilva-g         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -249,7 +249,7 @@ void	test_c()
 
 	printf(BLUE"\nTest %%c\n"RESET);
 	
-	printf("Originali  ");
+	printf("Original  ");
 	num1 = printf("%c", c1);
 	printf("\tTotal: %d\n", num1);
 	printf("ft_printf ");
@@ -707,7 +707,39 @@ void test_percentage()
 	printf("\tTotal: %i\n\n", num2);
 	
 }
+/*
+void	test_crazy()
+{
+	int	num1;
+	int	num2;
 
+	printf(BLUE"\nTest %%crazy\n"RESET);
+	
+	printf("Original  ");
+	num1 = printf("%d", "abc");
+	printf("\t\tTotal: %d\n", num1);
+	printf("ft_printf ");
+	fflush(stdout);
+	num2 = ft_printf("%d", "abc");
+	printf("\t\tTotal: %d\n\n", num2);
+
+	printf("Original  ");
+	num1 = printf("%k");
+	printf("\t\tTotal: %d\n", num1);
+	printf("ft_printf ");
+	fflush(stdout);
+	num2 = ft_printf("%k");
+	printf("\t\tTotal: %d\n\n", num2);
+	
+	printf("Original  ");
+	num1 = printf("%");
+	printf("\t\tTotal: %d\n", num1);
+	printf("ft_printf ");
+	fflush(stdout);
+	num2 = ft_printf("%");
+	printf("\t\tTotal: %d\n\n", num2);
+}
+*/
 int	main(int argc, char **argv)
 {
 	if (argc == 2)
@@ -726,41 +758,23 @@ int	main(int argc, char **argv)
 			test_percentage();
 		}
 		if (strcmp(argv[1], "1") == 0)
-		{
 			test_c();
-		}
 		if (strcmp(argv[1], "2") == 0)
-		{
 			test_str();
-		}
 		if (strcmp(argv[1], "3") == 0)
-		{
 			test_digit();
-		}
 		if (strcmp(argv[1], "4") == 0)
-		{
 			test_int();
-		}
 		if (strcmp(argv[1], "5") == 0)
-		{
 			test_ptr();
-		}
 		if (strcmp(argv[1], "6") == 0)
-		{
 			test_uint();
-		}
 		if (strcmp(argv[1], "7") == 0)
-		{
 			test_x();
-		}
 		if (strcmp(argv[1], "8") == 0)
-		{
 			test_X();
-		}
 		if (strcmp(argv[1], "9") == 0)
-		{
 			test_percentage();
-		}
 	}
 	//papaya();
 	return (0);
