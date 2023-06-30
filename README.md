@@ -1,6 +1,6 @@
 # Papayanette
 
-A simple 42 tester project.
+A simple 42 tester project.\
 Currently has tests for: 
 * libft
 * ft_printf
