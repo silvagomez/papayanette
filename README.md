@@ -13,6 +13,7 @@ Currently has tests for:
 This is designed to help.
 
 ## Install
-`git clone https://github.com/silvagomez/papayanette.git`
-
+```
+git clone https://github.com/silvagomez/papayanette.git
+```
 ## Update
