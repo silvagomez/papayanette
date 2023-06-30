@@ -2,9 +2,9 @@
 
 A simple 42 tester project.
 Currently has tests for: 
- - [ ] libft
- - [ ] ft_printf
- - [ ] get_next_line
+* libft
+* ft_printf
+* get_next_line
 
 
 
