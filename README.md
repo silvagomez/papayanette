@@ -13,10 +13,12 @@ Currently papaya has tests for:
 * ft_printf
 * get_next_line
 
+I will continue developing papaya to be more user friendly, feel free to contact me or to give a :star:.
+
 ## Why papaya?
 In [Colombia](https://www.colombia.co/) :colombia: we have the expression **"_dar papaya_"** that means to give unnecessarily the opportunity for something to happen, to expose oneself, to risk, to be careless, to be imprudent, to incur in innocence, to be careless or to give too much advantage.
 <br><br>
-In this sense, the goal is to avoid **"dar papaya"** by running a battery of tests to check the code.
+In this sense, the goal is to avoid **"_dar papaya_"** by running a battery of tests to check the code.
 
 ## Install
 ```bash
