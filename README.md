@@ -7,7 +7,7 @@ A simple 42 tester project.
 This is designed to help, understand and ensure that the code behaves as intended and produces the expected results. Tests act as a safety net, catching potential bugs or regressions before they reach users. By identifying issues early in the development process, we can fix them promptly, leading to higher code quality.
 <br><br>
 > [!WARNING]
-> ⚠️ Write your own tests, it's a very essential part of programming.
+> Write your own tests, it's a very essential part of programming.
 
 Currently papaya has tests for: 
 * libft
