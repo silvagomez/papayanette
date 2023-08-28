@@ -9,7 +9,8 @@ This is designed to help, understand and ensure that the code behaves as intende
 > [!WARNING]
 > Write your own tests, it's a very essential part of programming.
 <br>
-Currently papaya has tests for: 
+
+Currently papaya has tests for:
 * libft
 * ft_printf
 * get_next_line
