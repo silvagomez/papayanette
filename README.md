@@ -21,13 +21,13 @@ Currently papaya has tests for:
 I will continue developing papaya to be more user friendly. Contributions, issues, and feature requests are welcome, feel free to contact me!
 <br><br>
 _You can me give a ⭐️ if papaya has helped you or if you just like this project._
-<br>
+<br><br>
 
 ## Why papaya?
 In [Colombia](https://www.colombia.co/) :colombia: we have the expression **"_dar papaya_"** that means to give unnecessarily the opportunity for something to happen, to expose oneself, to risk, to be imprudent, to incur in innocence, to be careless or to give too much advantage.
 <br><br>
 In this sense, the goal is to avoid **"_dar papaya_"** by running a battery of tests to check the code.
-<br>
+<br><br>
 
 ## Install
 ```bash
