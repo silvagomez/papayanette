@@ -13,7 +13,11 @@ Currently papaya has tests for:
 * ft_printf
 * get_next_line
 
-I will continue developing papaya to be more user friendly, feel free to contact me or to give a :star:.
+I will continue developing papaya to be more user friendly, contributions, issues, and feature requests are welcome!
+<br>
+Feel free to contact
+<br>
+Give a ⭐️ if you like this project!
 
 ## Why papaya?
 In [Colombia](https://www.colombia.co/) :colombia: we have the expression **"_dar papaya_"** that means to give unnecessarily the opportunity for something to happen, to expose oneself, to risk, to be imprudent, to incur in innocence, to be careless or to give too much advantage.
