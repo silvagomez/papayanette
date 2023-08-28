@@ -18,9 +18,7 @@ Currently papaya has tests for:
 * ft_printf
 * get_next_line
 
-I will continue developing papaya to be more user friendly. Contributions, issues, and feature requests are welcome!
-<br>
-Feel free to contact.
+I will continue developing papaya to be more user friendly. Contributions, issues, and feature requests are welcome! Feel free to contact.
 <br><br>
 _You can me give a ⭐️ if papaya has helped you or if you just like this project._
 
